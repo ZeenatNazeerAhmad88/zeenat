@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset='utf-8'>
+
+	<title>MyFisrtAssignment</title>
+
+	<link rel='stylesheet' type='text/css' media='screen' href='zeenat.css'>
+	<script src='zeenat.js'></script>
+</head>
+
+<body bgcolor="#4cf61880">
+	<marquee direction="left" id="heading1">"KINDLY READ AND PAY ATTENTION DURING FILLING THIS FORM"</marquee>
+	<form id="firstForm" method="GET">
+		<h1>My Project</h1>
+		<div>
+			<label id="myLabel">First Name:</label>
+			<input type="text" name="firstName" id="firstName" required=""><br><br>
+		
+			<label>E-mail:</label>
+			<input type="email" name="eMail" id="eMail"><br><br>
+		</div>
+		<div>
+			<label>Password:</label>
+			<input type="password" name="mypassword" id="mypassword"><br><br>
+		</div>
+		<div>
+			<div>
+				<label>Phone Number:</label>
+				<input type="number" name="myNumber" id="myNumber"><br><br>
+			</div>
+			<label>Education:</label>
+			<select id="myEducation">
+				<option value="FSC">FSC </option>
+				<option value="FA">FA</option>
+				<option value="ICS">ICS</option>
+			</select><br><br>
+		</div>
+	<div>
+	<label>Address:</label><br>
+	<textarea id="address" cols="15" rows="3"></textarea>
+	</div>
+	<div>
+		<label id="myGender">Gender:</label><br>
+		<input type="radio" name="gender" value="Male" id="male">Male
+		<input type="radio"name="gender" value="Female" id="female">Female
+	
+ </div>
+		<div>
+			<label id="myHobbies">Select Your Hobbies:</label><br>
+			<input type="checkbox" value="studying"> Studying <br>
+			<input type="checkbox" value="playing"> Playing <br>
+			<input type="checkbox" value="watching"> Watching<br><br>
+		</div>
+
+	</form>
+	<center><Button type="submit" name="submit" onclick="FormSubmit()">Verify Your Data</Button></center>
+	<div id="dynamicTable"></div><br>
+	<center><button type="submit" name="submit">Submit Now</button></center>
+
+</body>
+
+</html>

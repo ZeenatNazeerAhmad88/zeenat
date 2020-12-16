@@ -1,0 +1,8 @@
+marquee{
+ color: darkblue;
+ background-color:black;
+ font-size: 50px;
+}
+table,td,th{
+border: 2px solid white;
+}
